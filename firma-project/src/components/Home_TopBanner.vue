@@ -1,9 +1,14 @@
 <template>
-	<div class="-mx-4 px-3 pb-16 pt-72 flex justify-center flex-col bg-gray-500">
-		<h1 class="text-4xl flex flex-col text-center">Ditt nye <br> <span class="font-bold">elektrofirma.</span></h1>
-		<h1 class="text-4xl flex flex-col text-center mt-3">Vi jobber <span class="font-bold">for deg.</span></h1>
-		<h4 class="text-lg text-center mt-4">Norges beste innenfor elektro.</h4>
-		<button class="text-sm py-3 px-5 rounded-md bg-primary mx-auto mt-10">
+	<div class="-mx-4 px-3 pb-96 pt-12 flex justify-center flex-col overflow-hidden relative">
+		<div class="absolute -left-[136px] bottom-0 min-w-[1150px] backDropShadow">
+			<svg width="100%" viewBox="0 0 1440 416" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path class="pathSvg" d="M-4 363.036C16 339.87 73.7 286.536 128.5 280.536C197 273.036 211.933 338.467 278.5 348.536C338 357.536 375.5 320.656 375.5 294.536C375.5 279 366.12 269.416 362 256.036C355.447 234.755 365 214.87 360 198.536C352.5 174.036 299.596 155.938 318 79.0362C332 20.5364 386.667 1.03632 417 2.03632C450.5 3.14072 510.99 27.5364 515.5 92.0364C520.5 163.536 486 169.036 471 205.036C465.399 221.623 477.516 245.769 465 267.536C464.717 268.028 464.451 268.516 464.202 269M739.106 280.437C739.07 280.47 739.035 280.503 739 280.536C719.167 299.036 688.5 310.112 641 321.536C601.5 331.036 546.5 331.536 494 310.536C470.368 301.084 454.305 288.189 464.202 269M739.106 280.437C761.481 259.411 755.454 215.56 726 230.536C706.095 240.657 718.479 261.352 739.106 280.437ZM739.106 280.437C751.816 292.198 767.656 303.348 781 311.036C833 340.998 961.7 365.536 1060.5 357.536C1184 347.536 1227.5 305.536 1304 301.036C1365.2 297.436 1421.17 375.536 1441.5 415.036M421.42 142.74C430.95 147.728 428.229 206.285 417 225C405 245 365.658 230.004 366 244.5C366.544 267.536 463.977 228.796 465 252.5C466.023 276.204 375.5 252.5 377 272C377.886 283.515 396.783 282.659 419.283 280.536C445.783 278.036 456.659 278.036 464.202 269M421.42 142.74C420.766 142.397 420.054 142.307 419.283 142.5M421.42 142.74C420.711 142.66 419.998 142.58 419.283 142.5M421.42 142.74C433.411 144.082 444.382 145.228 448 144.036C455.434 141.589 457 133.071 419.283 142.5M419.283 142.5C407.283 145.5 379.5 149.5 382 142.5C383.436 138.481 402.016 140.561 419.283 142.5Z" stroke="#DDF3FF" stroke-opacity="0.8" stroke-width="3.5"/>
+			</svg>
+		</div>
+		<h1 class="text-4xl flex flex-col text-center animationIn">Ditt nye <br> <span class="font-bold">elektrofirma.</span></h1>
+		<h1 class="text-4xl flex flex-col text-center mt-3 animationIn2">Vi jobber <span class="font-bold">for deg.</span></h1>
+		<h4 class="text-lg text-center mt-4 animationIn3">Norges beste innenfor elektro.</h4>
+		<button class="text-sm py-3 px-5 rounded-md bg-primary mx-auto mt-8 animationIn3">
 			Se mer
 		</button>
 	</div>

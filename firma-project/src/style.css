@@ -1,3 +1,79 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.animationIn {
+	animation: fadeGrowIn 0.5s ease-in-out;
+}
+
+.animationIn2 {
+	animation: displayNone 0.75s linear, fadeGrowIn 0.5s ease-in-out 0.75s;
+}
+
+.animationIn3 {
+	animation: displayNone 2s linear, fadeGrowIn 0.5s ease-in-out 2s;
+}
+
+.pathSvg {
+	stroke-dasharray: 2000;
+	animation: dash 4s ease-in-out;
+}
+
+.backDropShadow {
+	filter: drop-shadow(0 0 0.75rem rgb(214, 239, 255));
+	animation: no-glow 4s ease-in, glow 1s ease-out 3.75s;
+}
+
+@keyframes dash {
+	from {
+		stroke-dasharray: 2;
+		filter: none;
+	}
+	
+	to {
+		stroke-dasharray: 2200;
+		stroke-dashoffset: 1000;
+		filter: none;
+	}
+}
+
+@keyframes no-glow {
+	from {
+		filter: none;
+	}
+	
+	to {
+		filter: none;
+	}
+}
+
+@keyframes glow {
+	from {
+		filter: none;
+	}
+	
+	to {
+		filter: drop-shadow(0 0 0.75rem rgb(214, 239, 255));;
+	}
+}
+
+@keyframes displayNone {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes fadeGrowIn {
+	from {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	
+	to {
+		opacity: 100%;
+		transform: translateY(0px);
+	}
+}

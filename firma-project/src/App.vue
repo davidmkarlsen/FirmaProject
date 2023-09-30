@@ -4,7 +4,7 @@ import TheFooter from './components/TheFooter.vue';
 </script>
 
 <template>
-	<div class="bg-gray-800">
+	<div class="bg-gray-950">
 		<header>
 		<the-header></the-header>
 		</header>
